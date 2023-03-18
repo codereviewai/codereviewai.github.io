@@ -1,20 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
 
 *{
-    font-family: 'Cabin', sans-serif;
+    font-family:  "Ubuntu Mono";
 }
 
 body{
     overflow-x: hidden;
 }
 
+ 
+.form-inline {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 547px) {
+    .form-inline {
+        justify-content: flex-start;
+    }
+}
+
+.col-md-5 {
+    display: flex;
+    justify-content: flex-end;
+}
 
 .page-bg {
-    background-color: #dbdbdb;
+    background-color: #000000;
 }
 
 .navbar-nav .nav-item .nav-link {
-    color: #626262;
+    color: #ffffff;
     font-weight: 300px;
 
 }
@@ -27,18 +44,19 @@ body{
 }
 
 .text-color {
-    color: #ccc1e6;
+    color: #ffffff;
 }
 
 ::placeholder {
-    color: #bdbfc2 !important;
+    color: #cccccc !important;
 }
 
 .footer-text{
-    color: #585859;
+    color: #ffffff;
 }
 
 .navbar-toggler:focus{
+    
     outline: none;
 }
 
@@ -67,18 +85,19 @@ body{
 
     .navbar-nav {
         padding-top: 20px;
+        color: #ffffff;
     }
     .site-nav {
         background-color: #ffffff;
-        box-shadow: 0 0 5px #00000015;
+        box-shadow: 0 0 5px #ffffff;
         backdrop-filter: blur(3px);
     }
 
     .site-nav .nav-link {
-        color: #1A129F !important;
+        color: #ffffff !important;
         background-color: white;
         padding: 10px 20px;
-        box-shadow: 0 0 5px #00000015;
+        box-shadow: 0 0 5px #ffffff;
         border-radius: 10px;
         margin-bottom: 10px;
     }
